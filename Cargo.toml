@@ -1,0 +1,11 @@
+[package]
+name = "uiua_interpreter"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+pyo3 = { version = "0.15", features = ["extension-module"] }
+uiua = { version = "*", default-features = false, features = ["batteries", "native_sys"] }
+
+[lib]
+crate-type = ["cdylib"]

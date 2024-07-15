@@ -1,0 +1,14 @@
+/target
+*.rs.bk
+*.so
+*.dylib
+*.dll
+*.exe
+__pycache__
+*.pyc
+.idea
+.vscode
+.venv
+*.log
+*.tmp
+*.lock
